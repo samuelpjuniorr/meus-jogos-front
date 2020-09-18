@@ -1,0 +1,42 @@
+export default {
+  description: 'Descrição',
+  registration: 'Matrícula',
+  email: 'Email',
+  password: 'Senha',
+  confirm_password: 'Confirmar Senha',
+  name: 'Nome',
+  image: 'Imagem',
+  roles: 'Perfis',
+  date: 'Data',
+  initialDate: 'Data Inicial',
+  finalDate: 'Data Final',
+  created_at: 'Criado em',
+  updated_at: 'Atualizado em',
+  user: {
+    id: 'Código',
+    name: 'Nome',
+    email: 'Email',
+    remember_token: 'Token',
+    created_at: 'Criado em',
+    updated_at: 'Atualizado em',
+    image: 'Imagem',
+    roles: 'Perfil',
+  },
+  task: {
+    id: 'Código',
+    description: 'Descrição',
+    done: 'Feito?',
+    priority: 'Prioridade',
+    scheduled_to: 'Agendado Para',
+    project: 'Projeto',
+    project_id: 'Projeto',
+    created_at: 'Criado em',
+    updated_at: 'Atualizado em',
+  },
+  project: {
+    cost: 'Custo',
+  },
+  // é carregado do servidor caso esteja definido no mesmo
+  auditModel: {
+  },
+};

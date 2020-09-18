@@ -1,0 +1,61 @@
+{
+  "name": "starter-pack-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode local",
+    "build": "node buildjson.js && vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "build-development": "node buildjson.js && vue-cli-service build --mode development",
+    "build-homologa": "node buildjson.js && vue-cli-service build --mode homologa",
+    "build-stage": "node buildjson.js && vue-cli-service build --mode stage",
+    "build-production": "node buildjson.js && vue-cli-service build --mode production"
+  },
+  "dependencies": {
+    "alasql": "^0.4.5",
+    "axios": "^0.18.0",
+    "cleave.js": "~1.1.1",
+    "lodash": "^4.17.5",
+    "moment": "~2.19.1",
+    "pdfmake": "^0.1.36",
+    "vue": "^2.5.16",
+    "vue-i18n": "~7.3.2",
+    "vue-print-nb": "^1.5.0",
+    "vue-prodeb": "git+ssh://git@gitlab.prodeb.ba.gov.br:arquitetura/vue-prodeb.git#v1.0.3",
+    "vue-router": "^3.0.1",
+    "vue-the-mask": "~0.11.1",
+    "vue2-filters": "~0.2.2",
+    "vuetify": "~1.1.4",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "~2.4.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/eslint-config-airbnb": "^3.0.0-rc.3",
+    "@vue/test-utils": "^1.0.0-beta.16",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "jest-localstorage-mock": "^2.4.3",
+    "mocha": "^5.0.5",
+    "mochawesome": "^3.0.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "jest": {
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ]
+  }
+}

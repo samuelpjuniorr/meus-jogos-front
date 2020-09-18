@@ -1,0 +1,19 @@
+{
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportFilename": "testresults",
+    "reportDir": "tests/e2e/reports"
+  },
+  "env": {
+    "host": "http://localhost:4200",
+    "baseUrl":"http://localhost:5000/api/v1/"
+  },
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "fixturesFolder":"tests/e2e/fixtures",
+  "integrationFolder":"tests/e2e/integration",
+  "screenshotsFolder":"tests/e2e/screenshots",
+  "supportFile":"tests/e2e/support",
+  "videosFolder":"tests/e2e/videos"
+}

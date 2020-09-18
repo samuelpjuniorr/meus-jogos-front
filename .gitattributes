@@ -1,0 +1,8 @@
+* text eol=lf
+*.css linguist-vendored
+*.sass linguist-vendored
+*.less linguist-vendored
+*.styl linguist-vendored
+*.png 		binary
+*.jpg 		binary
+*.jepg    binary
