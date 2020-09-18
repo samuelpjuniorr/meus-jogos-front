@@ -1,0 +1,38 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+
+# local env files
+.env.local
+.env.*.local
+*/build.json
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+.sonar/
+.scannerwork/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+coverage/*
+
+tests/e2e/reports/*
+tests/e2e/videos/*
+tests/e2e/screenshots/*
